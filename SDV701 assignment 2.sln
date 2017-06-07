@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDV701 assignment 2", "SDV7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDV701 travel item UWP", "SDV701 travel item UWP\SDV701 travel item UWP.csproj", "{884CBFBF-39C0-4CD3-9BDF-C82F5AF6354B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelBusinessWinForm", "TravelBusinessWinForm\TravelBusinessWinForm.csproj", "{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TravelItemAppConsole", "TravelItemAppConsole", "{A75D1498-B2B4-45FB-B521-A85C12F35D32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelItemAppSelfHost", "TravelItemAppSelfHost\TravelItemAppSelfHost.csproj", "{26EB14B4-B91A-42D3-812D-8169C46970F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,8 +61,43 @@ Global
 		{884CBFBF-39C0-4CD3-9BDF-C82F5AF6354B}.Release|x86.ActiveCfg = Release|x86
 		{884CBFBF-39C0-4CD3-9BDF-C82F5AF6354B}.Release|x86.Build.0 = Release|x86
 		{884CBFBF-39C0-4CD3-9BDF-C82F5AF6354B}.Release|x86.Deploy.0 = Release|x86
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|ARM.Build.0 = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|x64.Build.0 = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Debug|x86.Build.0 = Debug|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|ARM.Build.0 = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|x64.ActiveCfg = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|x64.Build.0 = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|x86.ActiveCfg = Release|Any CPU
+		{017AA210-28DD-4D04-81A8-C5DABF4FBE6E}.Release|x86.Build.0 = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|ARM.Build.0 = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|x64.Build.0 = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Debug|x86.Build.0 = Debug|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|ARM.ActiveCfg = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|ARM.Build.0 = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|x64.ActiveCfg = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|x64.Build.0 = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|x86.ActiveCfg = Release|Any CPU
+		{26EB14B4-B91A-42D3-812D-8169C46970F8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26EB14B4-B91A-42D3-812D-8169C46970F8} = {A75D1498-B2B4-45FB-B521-A85C12F35D32}
 	EndGlobalSection
 EndGlobal
