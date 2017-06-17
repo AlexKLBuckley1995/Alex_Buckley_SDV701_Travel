@@ -1,4 +1,4 @@
-﻿namespace TravelBusinessWinForm
+﻿namespace TravelItemAppWinForm
 {
     partial class frmMain
     {

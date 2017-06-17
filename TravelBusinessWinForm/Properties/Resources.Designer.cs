@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TravelBusinessWinForm.Properties
+namespace TravelItemAppWinForm.Properties
 {
 
 

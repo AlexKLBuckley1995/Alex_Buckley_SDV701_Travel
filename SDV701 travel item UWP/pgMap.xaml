@@ -5,29 +5,15 @@
     xmlns:local="using:SDV701_travel_item_UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="315.333">
+    mc:Ignorable="d" Height="446" Width="270">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="524" VerticalAlignment="Top" Margin="0,0,0,-208.667">
-        <TextBlock x:Name="lblItemName" HorizontalAlignment="Left" Margin="111,10,0,0" TextWrapping="Wrap" Text="Greek Road Map" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblPrice" HorizontalAlignment="Left" Margin="12,63,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblItemBrand" HorizontalAlignment="Left" Margin="14,91,0,0" TextWrapping="Wrap" Text="Brand" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblItemMapType" HorizontalAlignment="Left" Margin="14,116,0,0" TextWrapping="Wrap" Text="Map type" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblItemMapDimensions" HorizontalAlignment="Left" Margin="12,141,0,0" TextWrapping="Wrap" Text="Map dimensions" VerticalAlignment="Top"/>
-        <Button x:Name="btnItemOrder" Content="Order" HorizontalAlignment="Left" Margin="262,430,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnItemCancel" Content="Cancel" HorizontalAlignment="Left" Margin="261,475,0,0" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblPriceValue" HorizontalAlignment="Left" Margin="77,63,0,0" TextWrapping="Wrap" Text="$15.99" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblBrandValue" HorizontalAlignment="Left" Margin="77,87,0,0" TextWrapping="Wrap" Text="AA Traveller" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblMapTypeValue" HorizontalAlignment="Left" Margin="98,116,0,0" TextWrapping="Wrap" Text="Folded map" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblMapDimensionValue" HorizontalAlignment="Left" Margin="136,141,0,0" TextWrapping="Wrap" Text="10x12" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblConfirmOrderTitle" HorizontalAlignment="Left" Margin="14,194,0,0" TextWrapping="Wrap" Text="Confirm the order" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="lblQuantity" HorizontalAlignment="Left" Margin="46,219,0,0" TextWrapping="Wrap" Text="Enter quantity you want" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblDetailTitle" HorizontalAlignment="Left" Margin="14,260,0,0" TextWrapping="Wrap" Text="Enter your details" VerticalAlignment="Top" FontSize="20"/>
-        <TextBlock x:Name="lblFirstName" HorizontalAlignment="Left" Margin="14,293,0,0" TextWrapping="Wrap" Text="First name" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblSurname" HorizontalAlignment="Left" Margin="14,330,0,0" TextWrapping="Wrap" Text="Surname" VerticalAlignment="Top"/>
-        <TextBlock x:Name="lblEmailAddress" HorizontalAlignment="Left" Margin="14,375,0,0" TextWrapping="Wrap" Text="Email address" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtFirstNameValue" HorizontalAlignment="Left" Margin="148,289,0,0" TextWrapping="Wrap" Text="Mary" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtSurnameValue" HorizontalAlignment="Left" Margin="148,329,0,0" TextWrapping="Wrap" Text="Smith" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtEmailAddressValue" HorizontalAlignment="Left" Margin="148,373,0,0" TextWrapping="Wrap" Text="marysmith@gmail.com" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtQuantityValue" HorizontalAlignment="Left" Margin="220,211,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="480" VerticalAlignment="Top" Margin="0,0,0,-34">
+        <TextBlock x:Name="lbl" HorizontalAlignment="Left" Margin="77,10,0,0" TextWrapping="Wrap" Text="OdysseyBooks" VerticalAlignment="Top"/>
+        <TextBox x:Name="lblSelectLocation" HorizontalAlignment="Left" Margin="10,30,0,0" TextWrapping="Wrap" Text="Select travel location" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
+        <TextBox x:Name="lblLocationName" HorizontalAlignment="Left" Margin="10,67,0,0" TextWrapping="Wrap" Text="Travel location" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
+        <TextBox x:Name="lblLocationDescriptor" HorizontalAlignment="Left" Margin="142,67,0,0" TextWrapping="Wrap" Text="Location descriptor" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
+        <ListBox x:Name="lstLocations" HorizontalAlignment="Left" Height="283" Margin="10,87,0,0" VerticalAlignment="Top" Width="242"/>
+        <Button x:Name="btnView" Content="View" HorizontalAlignment="Left" Margin="172,375,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Left" Margin="172,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.446,1.875"/>
     </Grid>
 </Page>

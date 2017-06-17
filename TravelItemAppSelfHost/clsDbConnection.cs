@@ -6,6 +6,12 @@ using System.Configuration;
 
 namespace TravelItemAppSelfHost
 {
+
+    // Author: Alex Buckley
+    // Date: 16/06/2017
+    // Summary: This class contains the mechanical functions to query in this case the SQL Server database using SQL queries. This facilitates the
+    // TravelShopController by letting it run SQL queries against the database. 
+
     static class clsDbConnection
     {
         private static ConnectionStringSettings ConnectionStringSettings = ConfigurationManager.ConnectionStrings["TravelItemAppDB"];

@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TravelItemUWP.pgMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TravelItemUWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="309*"/>
+            <ColumnDefinition Width="31*"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btnLocationClose" Content="Close" HorizontalAlignment="Left" Margin="281,582,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.282,2.74" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnLocationView" Content="View" HorizontalAlignment="Left" Margin="281,535,0,0" VerticalAlignment="Top" Width="65" Grid.ColumnSpan="3" Click="btnLocationView_Click"/>
+        <ListBox x:Name="lstLocations" HorizontalAlignment="Left" Height="347" Margin="10,133,0,0" VerticalAlignment="Top" Width="336" Grid.ColumnSpan="3" DoubleTapped="lstLocations_DoubleTapped"/>
+        <TextBlock x:Name="txbTravelLocationNames" HorizontalAlignment="Left" Margin="20,96,0,0" TextWrapping="Wrap" Text="Travel location" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txbTravelLocation" HorizontalAlignment="Left" Margin="20,51,0,0" TextWrapping="Wrap" Text="Select travel location" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txbOdysseyBooksTitle" HorizontalAlignment="Left" Margin="20,10,0,0" TextWrapping="Wrap" Text="OdysseyBooks" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="txbMessage" HorizontalAlignment="Left" Margin="20,519,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="95" Width="222"/>
+
+    </Grid>
+</Page>

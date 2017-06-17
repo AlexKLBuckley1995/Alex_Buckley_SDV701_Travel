@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TravelBusinessWinForm
+namespace TravelItemAppWinForm
 {
     public sealed partial class frmMain : Form
     {
@@ -28,7 +28,7 @@ namespace TravelBusinessWinForm
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show(ex.Message, "Could not update");
             }
         }
 

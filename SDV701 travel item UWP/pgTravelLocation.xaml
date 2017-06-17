@@ -5,16 +5,15 @@
     xmlns:local="using:SDV701_travel_item_UWP"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d" Height="379.667">
+    mc:Ignorable="d" Height="446" Width="270">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,0,0,-0.333">
-        <TextBox x:Name="lblLocationName" HorizontalAlignment="Left" Margin="91,10,0,0" TextWrapping="Wrap" Text="Southern Europe" VerticalAlignment="Top" BorderThickness="0"/>
-        <TextBox x:Name="lblItemName" HorizontalAlignment="Left" Margin="10,47,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" BorderThickness="0"/>
-        <TextBox x:Name="lblItemPrice" HorizontalAlignment="Left" Margin="91,47,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" BorderThickness="0"/>
-        <TextBox x:Name="lblItemType" HorizontalAlignment="Left" Margin="196,47,0,0" TextWrapping="Wrap" Text="Item type" VerticalAlignment="Top" BorderThickness="0"/>
-        <ListBox x:Name="lstItemList" HorizontalAlignment="Left" Height="189" Margin="10,79,0,0" VerticalAlignment="Top" Width="340"/>
-        <Button x:Name="btnItemListView" Content="View" HorizontalAlignment="Left" Margin="269,273,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnItemClose" Content="Close" HorizontalAlignment="Left" Margin="269,326,0,0" VerticalAlignment="Top"/>
-
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="480" VerticalAlignment="Top" Margin="0,0,0,-34">
+        <TextBlock x:Name="lblLocationName1" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Location name" VerticalAlignment="Top"/>
+        <TextBox x:Name="lblItemName" HorizontalAlignment="Left" Margin="0,67,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
+        <TextBox x:Name="lblItemPrice" HorizontalAlignment="Left" Margin="77,67,0,0" TextWrapping="Wrap" Text="Price" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
+        <ListBox x:Name="lstLocations" HorizontalAlignment="Left" Height="283" Margin="10,87,0,0" VerticalAlignment="Top" Width="242"/>
+        <Button x:Name="btnView" Content="View" HorizontalAlignment="Left" Margin="172,375,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnItemClose" Content="Close" HorizontalAlignment="Left" Margin="172,424,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.446,1.875"/>
+        <TextBox x:Name="lblItemType" HorizontalAlignment="Left" Margin="188,67,0,0" TextWrapping="Wrap" Text="Item type" VerticalAlignment="Top" FontSize="11" BorderThickness="0"/>
     </Grid>
 </Page>
